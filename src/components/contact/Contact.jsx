@@ -22,7 +22,7 @@ function Contact() {
         </div>
             <div className='top'>
                 <div className='left'>
-                    Map
+                    <img src="../pictures/map.png" alt="" />
                 </div>
                 <div className='right'>
                     <h2>Lets Work Together, Send me a message!</h2>

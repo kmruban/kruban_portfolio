@@ -19,32 +19,33 @@
     align-items: center;
     justify-content: space-around;
 
-    .title{
+    .title {
       display: flex;
       height: 10%;
       width: 75%;
       justify-content: center;
       align-items: center;
 
-      h1{
+      h1 {
         color: white;
         font-size: 45px;
       }
     }
 
-    .top{
+    .top {
       display: flex;
       height: 30%;
       width: 60vw;
       justify-content: space-around;
 
-      .left{
+      .left {
         display: flex;
 
-        img{
+        img {
           height: 250px;
-            width: 200px;
-            padding-right: 20px;
+          width: 200px;
+          padding-right: 20px;
+          
           @include phone {
             height: 200px;
             width: 150px;
@@ -52,15 +53,15 @@
         }
       }
 
-      .right{
+      .right {
         display: flex;
         flex-direction: column;
 
-        h2{
+        h2 {
           color: white;
         }
 
-        label{
+        label {
           font-size: 14px;
           color: black;
 
@@ -69,7 +70,7 @@
           }
         }
 
-        p{
+        p {
           font-size: 18px;
 
           @include tablet {
@@ -79,7 +80,7 @@
       }
     }
 
-    .bottom{
+    .bottom {
       display: flex;
       height: 35%;
       width: 70%;

@@ -49,6 +49,16 @@
         top: 2%;
         left: 2%;
       }
+
+      img{
+        height: 60vh;
+        width: 50vw;
+
+        @include tablet {
+          height: 40vh;
+          width: 86.5vw;
+        }
+      }
     }
 
     .right {
