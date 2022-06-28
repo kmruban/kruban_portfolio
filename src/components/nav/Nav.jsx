@@ -1,6 +1,9 @@
 import './nav.scss';
 import React, { useState } from 'react';
 import pdf from "../../Resume_KYLERUBAN.pdf";
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+
+import { faBars } from '@fortawesome/free-solid-svg-icons';
 
 function Nav() {
 
@@ -16,7 +19,7 @@ function Nav() {
         <a href='#contact' onClick={() => setShowLinks(!showLinks)}>Contact</a>
         <a href={pdf} target='_blank' rel='noopener noreferrer' onClick={() => setShowLinks(!showLinks)}>Resume</a>
       </div>
-      <button onClick={() => setShowLinks(!showLinks)} >Menu</button>
+      <button onClick={() => setShowLinks(!showLinks)} ><FontAwesomeIcon icon={faBars} /></button>
     </div>
   )
 }

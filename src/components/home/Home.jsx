@@ -1,6 +1,9 @@
 import './home.scss';
 import React from 'react';
 import ParticleBackground from '../particles/Particles';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+
+import { faAngleRight } from '@fortawesome/free-solid-svg-icons';
 
 function Home() {
   return (
@@ -14,7 +17,7 @@ function Home() {
                 <h2>Full-Stack Software Engineer.</h2>
             </div>
             <div className='bottom'>
-                <button><a href='#about'>View My Work</a></button>
+                <button><a href='#about'>View My Work<span><FontAwesomeIcon icon={faAngleRight} /></span></a></button>
             </div>
         </div>
     </div>
