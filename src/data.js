@@ -11,26 +11,21 @@
     },
     {
       id: 3,
-      title: "JavaScript",
-      img: "pictures/javascript.png",
-    },
-    {
-      id: 4,
       title: "HTML5",
       img: "pictures/html5.png",
     },
     {
-      id: 5,
+      id: 4,
       title: "SASS",
       img: "pictures/sass.png",
     },
     {
-      id: 6,
+      id: 5,
       title: "CSS3",
       img: "pictures/css.png",
     },
     {
-      id: 7,
+      id: 6,
       title: "Node.js",
       img: "pictures/node.png",
     }
@@ -50,6 +45,11 @@
     },
     {
       id: 3,
+      title: "JavaScript",
+      img: "pictures/javascript.png",
+    },
+    {
+      id: 4,
       title: "Python",
       img: "pictures/python.png",
     }
@@ -91,7 +91,7 @@
     {
       id: 1,
       title: "Finance App",
-      img: "pictures/userlogin.png",
+      img: "pictures/finance.png",
       bio: "bio",
       link: "https://github.com/kmruban/mern-finance",
       repo: "https://github.com/kmruban/mern-finance",
