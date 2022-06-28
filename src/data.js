@@ -90,6 +90,14 @@
   export const webProj = [
     {
       id: 1,
+      title: "Finance App",
+      img: "pictures/userlogin.png",
+      bio: "bio",
+      link: "https://github.com/kmruban/mern-finance",
+      repo: "https://github.com/kmruban/mern-finance",
+    },
+    {
+      id: 1,
       title: "Amazon App",
       img: "pictures/amazon.png",
       bio: "bio",
@@ -103,15 +111,7 @@
       bio: "bio",
       link: "https://github.com/kmruban/react_dotnetcore_moviesapp",
       repo: "https://github.com/kmruban/react_dotnetcore_moviesapp",
-    },
-    {
-      id: 3,
-      title: "User Login",
-      img: "pictures/userlogin.png",
-      bio: "bio",
-      link: "pictures/userlogin.mov",
-      repo: "https://github.com/kmruban/user_login",
-    },
+    }
   ];
 
   export const graphicsProj = [
