@@ -1,6 +1,6 @@
 import './nav.scss';
 import React, { useState } from 'react';
-import pdf from "../../Resume_KYLERUBAN.pdf";
+import pdf from "../../KyleRubanResume-2.pdf";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 import { faBars } from '@fortawesome/free-solid-svg-icons';

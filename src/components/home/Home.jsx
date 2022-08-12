@@ -1,8 +1,8 @@
 import './home.scss';
 import React from 'react';
 import ParticleBackground from '../particles/Particles';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faAngleRight } from '@fortawesome/free-solid-svg-icons';
 
 function Home() {

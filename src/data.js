@@ -90,27 +90,19 @@
   export const webProj = [
     {
       id: 1,
+      title: "E-Commerce Marketplace",
+      img: "pictures/marketplace.png",
+      bio: "bio",
+      link: "https://github.com/kmruban/CSCI490_Marketplace",
+      repo: "https://github.com/kmruban/CSCI490_Marketplace",
+    },
+    {
+      id: 2,
       title: "Finance App",
       img: "pictures/finance.png",
       bio: "bio",
       link: "https://github.com/kmruban/mern-finance",
       repo: "https://github.com/kmruban/mern-finance",
-    },
-    {
-      id: 1,
-      title: "Amazon App",
-      img: "pictures/amazon.png",
-      bio: "bio",
-      link: "pictures/amazon_demo.mov",
-      repo: "https://github.com/kmruban/mern-amazon",
-    },
-    {
-      id: 2,
-      title: "Movies App",
-      img: "pictures/netcorereact.jpeg",
-      bio: "bio",
-      link: "https://github.com/kmruban/react_dotnetcore_moviesapp",
-      repo: "https://github.com/kmruban/react_dotnetcore_moviesapp",
     }
   ];
 
