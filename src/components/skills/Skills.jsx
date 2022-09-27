@@ -4,7 +4,9 @@ import {
   webDev,
   programming,
   graphics, 
-  database
+  database,
+  hosting,
+  versionControl
 } from "../../data";
 import PortfolioList from '../portfolioList/PortfolioList';
 
@@ -26,6 +28,14 @@ function Skills() {
       title: "Database",
     },
     {
+      id: "hosting",
+      title: "Hosting",
+    },
+    {
+      id: "versionControl",
+      title: "Version Control",
+    },
+    {
       id: "graphics",
       title: "Graphics",
     }
@@ -41,6 +51,12 @@ function Skills() {
         break;
       case "database":
         setData(database);
+        break;
+      case "hosting":
+        setData(hosting);
+        break;
+      case "versionControl":
+        setData(versionControl);
         break;
       case "graphics":
         setData(graphics);

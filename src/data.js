@@ -6,37 +6,31 @@
     },
     {
       id: 2,
-      title: "TypeScript",
-      img: "pictures/typescript.png",
-    },
-    {
-      id: 3,
       title: "HTML5",
       img: "pictures/html5.png",
     },
     {
-      id: 4,
+      id: 3,
       title: "SASS",
       img: "pictures/sass.png",
     },
     {
-      id: 5,
+      id: 4,
       title: "CSS3",
       img: "pictures/css.png",
     },
     {
-      id: 6,
+      id: 5,
       title: "Node.js",
       img: "pictures/node.png",
     }
-
   ];
   
   export const programming = [
     {
       id: 1,
-      title: "Java",
-      img: "pictures/java.png",
+      title: "JavaScript",
+      img: "pictures/javascript.png",
     },
     {
       id: 2,
@@ -45,8 +39,8 @@
     },
     {
       id: 3,
-      title: "JavaScript",
-      img: "pictures/javascript.png",
+      title: "Java",
+      img: "pictures/java.png",
     },
     {
       id: 4,
@@ -86,10 +80,39 @@
     },
   ];
 
+  export const hosting = [
+    {
+      id: 1,
+      title: "AWS",
+      img: "pictures/aws.png",
+    },
+    {
+      id: 2,
+      title: "Netlify",
+      img: "pictures/netlify.png",
+    },
+  ];
+
+  export const versionControl = [
+    {
+      id: 1,
+      title: "GitHub",
+      img: "pictures/github.png",
+    },
+  ];
+
 
   export const webProj = [
     {
       id: 1,
+      title: "MLB Statistics",
+      img: "pictures/mlb.png",
+      bio: "bio",
+      link: "https://mlbstats.netlify.app",
+      repo: "https://github.com/kmruban/mlb_stats",
+    },
+    {
+      id: 2,
       title: "E-Commerce Marketplace",
       img: "pictures/marketplace.png",
       bio: "bio",
@@ -97,7 +120,7 @@
       repo: "https://github.com/kmruban/CSCI490_Marketplace",
     },
     {
-      id: 2,
+      id: 3,
       title: "Finance App",
       img: "pictures/finance.png",
       bio: "bio",
