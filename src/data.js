@@ -105,6 +105,14 @@
   export const webProj = [
     {
       id: 1,
+      title: "Finance App",
+      img: "pictures/finance.png",
+      bio: "bio",
+      link: "https://financeme.netlify.app",
+      repo: "https://github.com/kmruban/financeme",
+    },
+    {
+      id: 2,
       title: "MLB Statistics",
       img: "pictures/mlb.png",
       bio: "bio",
@@ -112,20 +120,12 @@
       repo: "https://github.com/kmruban/mlb_stats",
     },
     {
-      id: 2,
+      id: 3,
       title: "E-Commerce Marketplace",
       img: "pictures/marketplace.png",
       bio: "bio",
       link: "https://github.com/kmruban/CSCI490_Marketplace",
       repo: "https://github.com/kmruban/CSCI490_Marketplace",
-    },
-    {
-      id: 3,
-      title: "Finance App",
-      img: "pictures/finance.png",
-      bio: "bio",
-      link: "https://github.com/kmruban/mern-finance",
-      repo: "https://github.com/kmruban/mern-finance",
     }
   ];
 
